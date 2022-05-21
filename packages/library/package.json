@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "name": "library",
+  "version": "0.0.0",
+  "files": [
+    "dist/**/*"
+  ],
+  "module": "dist/vue2/index.js",
+  "types": "dist/vue2/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3/index.js",
+      "types": "./dist/vue3/index.d.ts"
+    },
+    "./vue2": {
+      "import": "./dist/vue2/index.js",
+      "types": "./dist/vue2/index.d.ts"
+    },
+    "./vue3": {
+      "import": "./dist/vue3/index.js",
+      "types": "./dist/vue3/index.d.ts"
+    },
+    "./style": "./dist/vue3/style.css"
+  },
+  "scripts": {
+    "switch2": "vue-demi-switch 2 vue2",
+    "switch3": "vue-demi-switch 3"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.4.9",
+    "vue": "^3.2.31",
+    "vue-demi": "latest",
+    "vue2": "npm:vue@^2.6.14"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.4.9",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.25",
+    "typescript": "~4.5.5",
+    "vue-tsc": "^0.31.4"
+  }
+}

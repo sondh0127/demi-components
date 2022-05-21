@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "packageManager": "pnpm@7.0.0",
+  "scripts": {
+    "build": "pnpm build:vue2 && pnpm build:vue3",
+    "build:vue2": "pnpm -C ./packages/library-vue2 build",
+    "build:vue3": "pnpm -C ./packages/library-vue3 build",
+    "dev:preview2": "pnpm build && pnpm -C ./packages/example-vue2 preview",
+    "dev:preview3": "pnpm build && pnpm -C ./packages/example-vue3 preview",
+    "dev:vue2": "pnpm build && pnpm switch2 && pnpm -C ./packages/example-vue2 dev",
+    "dev:vue3": "pnpm build && pnpm switch3 && pnpm -C ./packages/example-vue3 dev",
+    "switch2": "pnpm -C ./packages/library switch2",
+    "switch3": "pnpm -C ./packages/library switch3"
+  }
+}

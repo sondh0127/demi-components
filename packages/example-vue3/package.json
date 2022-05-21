@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "example-vue3",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 5050",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@sigma-interactive/unbuild-lib": "^1.0.0",
+    "vue": "^3.2.31"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.25",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "library": "workspace:*",
+    "typescript": "~4.5.5",
+    "unplugin-auto-import": "^0.7.2",
+    "vite": "^2.8.4",
+    "vue-tsc": "^0.31.4"
+  }
+}
