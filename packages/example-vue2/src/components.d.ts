@@ -6,6 +6,29 @@ import '@vue/runtime-core'
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ElButton: typeof import('element-ui/lib/button')['default']
+    ElCascader: typeof import('element-ui/lib/cascader')['default']
+    ElCheckbox: typeof import('element-ui/lib/checkbox')['default']
+    ElCheckboxGroup: typeof import('element-ui/lib/checkbox-group')['default']
+    ElCol: typeof import('element-ui/lib/col')['default']
+    ElColorPicker: typeof import('element-ui/lib/color-picker')['default']
+    ElDatePicker: typeof import('element-ui/lib/date-picker')['default']
+    ElForm: typeof import('element-ui/lib/form')['default']
+    ElFormItem: typeof import('element-ui/lib/form-item')['default']
+    ElInput: typeof import('element-ui/lib/input')['default']
+    ElInputNumber: typeof import('element-ui/lib/input-number')['default']
+    ElOption: typeof import('element-ui/lib/option')['default']
+    ElRadio: typeof import('element-ui/lib/radio')['default']
+    ElRadioGroup: typeof import('element-ui/lib/radio-group')['default']
+    ElRate: typeof import('element-ui/lib/rate')['default']
+    ElSelect: typeof import('element-ui/lib/select')['default']
+    ElSlider: typeof import('element-ui/lib/slider')['default']
+    ElSwitch: typeof import('element-ui/lib/switch')['default']
+    ElTable: typeof import('element-ui/lib/table')['default']
+    ElTableColumn: typeof import('element-ui/lib/table-column')['default']
+    ElTimePicker: typeof import('element-ui/lib/time-picker')['default']
+    ElTimeSelect: typeof import('element-ui/lib/time-select')['default']
+    ElTransfer: typeof import('element-ui/lib/transfer')['default']
+    ElUpload: typeof import('element-ui/lib/upload')['default']
   }
 }
 

@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview --port 5050",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "switch2": "vue-demi-switch 2"
   },
   "dependencies": {
     "@sigma-interactive/unbuild-lib": "^1.0.0",
@@ -29,6 +30,7 @@
     "vite": "^2.8.4",
     "vite-plugin-vue2": "^1.9.3",
     "vue-template-compiler": "^2.6.14",
-    "vue-tsc": "^0.31.4"
+    "vue-tsc": "^0.31.4",
+    "vue-demi": "^0.12.5"
   }
 }

@@ -9,7 +9,8 @@
     <p v-if="setupSuffix">
       <output>{{ setupOutput }}</output>
     </p>
-    <MyComponent/>
+    VUE 2
+    <MyComponent />
   </div>
 </template>
 
@@ -40,3 +41,12 @@ export default defineComponent({
   },
 });
 </script>
+<style>
+.el-input--small {
+  font-size: 14px;
+}
+
+.el-button--small {
+  font-size: 14px;
+}
+</style>

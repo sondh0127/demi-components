@@ -8,6 +8,7 @@
   <p v-if="setupSuffix">
     <output>{{ setupOutput }}</output>
   </p>
+  VUE 3
   <MyComponent/>
 </template>
 
