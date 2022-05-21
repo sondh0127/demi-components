@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@sigma-interactive/unbuild-lib": "^1.0.0",
+    "element-plus": "^2.2.1",
     "vue": "^3.2.31"
   },
   "peerDependencies": {
@@ -21,6 +22,7 @@
     "library": "workspace:*",
     "typescript": "~4.5.5",
     "unplugin-auto-import": "^0.7.2",
+    "unplugin-vue-components": "^0.19.5",
     "vite": "^2.8.4",
     "vue-tsc": "^0.31.4"
   }
