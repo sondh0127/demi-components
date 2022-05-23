@@ -1,0 +1,14 @@
+{
+  "cSpell.words": [
+    "Qiankun"
+  ],
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.enable": false,
+  "prettier.printWidth": 80,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+}
