@@ -15,8 +15,10 @@ export function createConfig({ strict = true, dev = true } = {}) {
     presets: [
       presetAttributify({ strict }),
       presetIcons({
+        scale: 1.2,
+        warn: true,
         collections: {
-          carbon: () => import('@iconify-json/carbon/icons.json').then(i => i.default as any),
+          ep: () => import('@iconify-json/ep/icons.json').then(i => i.default as any),
         },
       }),
       presetWebFonts({
