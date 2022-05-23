@@ -6,11 +6,9 @@ import GlobalHeader from './GlobalHeader.vue'
 <template>
   <el-config-provider namespace="ep">
     <el-container>
-      <el-aside width="200px">
-        <GlobalASide />
-      </el-aside>
+      <GlobalASide />
       <el-container>
-        <el-header>
+        <el-header style="--ep-header-padding: 0px">
           <GlobalHeader />
         </el-header>
         <el-main>
