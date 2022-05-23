@@ -1,6 +1,8 @@
 {
-  "private": true,
-  "license": "ISC",
+  "name": "@demi-components/monorepo",
+  "private": false,
+  "author": "Son Hong Do<sondh0127@gmail.com>",
+  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
