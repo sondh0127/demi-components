@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+import DefaultLayout from './layouts/DefaultLayout.vue'
 </script>
 
 <template>
-  <div class="bg-violet-500 rounded p-48px">
+  <DefaultLayout>
     <RouterView />
-  </div>
+  </DefaultLayout>
 </template>

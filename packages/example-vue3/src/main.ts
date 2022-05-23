@@ -1,6 +1,7 @@
 import 'library/style'
 import 'uno.css'
-import '@unocss/reset/tailwind.css'
+import '@unocss/reset/eric-meyer.css'
+import '@/styles/index.scss'
 import type { QiankunProps } from 'vite-plugin-qiankun/dist/helper'
 import { qiankunWindow, renderWithQiankun } from 'vite-plugin-qiankun/dist/helper'
 import type { App as VueInstance } from 'vue'
