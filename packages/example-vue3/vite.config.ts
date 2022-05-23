@@ -33,7 +33,9 @@ export default ({ mode }: ConfigEnv): UserConfig => {
         dts: './src/auto-imports.d.ts',
       }),
       Components({
-        resolvers: [ElementPlusResolver()],
+        resolvers: [ElementPlusResolver({
+          importStyle: 'sass',
+        })],
         include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
         dts: './src/components.d.ts',
       }),
