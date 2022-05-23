@@ -14,8 +14,11 @@
   },
   "dependencies": {
     "@sigma-interactive/unbuild-lib": "^1.0.0",
+    "@unocss/reset": "^0.34.0",
     "@vueuse/core": "^8.5.0",
     "element-plus": "^2.2.1",
+    "i": "^0.3.7",
+    "npm": "^8.10.0",
     "unocss": "^0.34.0",
     "vue": "^3.2.31",
     "vue-router": "^4.0.15"
